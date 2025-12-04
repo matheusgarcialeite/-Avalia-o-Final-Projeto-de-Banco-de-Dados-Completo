@@ -30,11 +30,6 @@ O Diagrama Entidade-Relacionamento (DER) foi criado para representar graficament
 * `CONSULTA`
 * `MEDICAMENTO`
 
-**Destaques:**
-* Uso de atributos simples, compostos (`endereço`) e multivalorados (`telefones`).
-* Identificação de atributo derivado (`idade` do animal).
-* Cardinalidades definidas (1:1, 1:N, N:N).
-
 ![Diagrama Conceitual](DER.drawio.png)
 
 ---
