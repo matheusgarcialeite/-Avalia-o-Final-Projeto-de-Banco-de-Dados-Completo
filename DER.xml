@@ -1,0 +1,214 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
+  <diagram name="DER VetPatas" id="0">
+    <mxGraphModel dx="1853" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ENTITY_CLIENTE" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CLIENTE" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_CLI_ID" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;u&gt;id_cliente&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="50" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_CLI_NOME" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="nome" vertex="1">
+          <mxGeometry height="40" width="80" x="-50" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_CLI_TEL" parent="1" style="ellipse;whiteSpace=wrap;html=1;shape=doubleEllipse;" value="telefones" vertex="1">
+          <mxGeometry height="40" width="100" x="50" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_END_RUA" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="rua" vertex="1">
+          <mxGeometry height="30" width="60" x="-140" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_END_CIDADE" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="cidade" vertex="1">
+          <mxGeometry height="30" width="60" x="-60" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_END_BAIRRO" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="bairro" vertex="1">
+          <mxGeometry height="30" width="60" x="-170" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="L1" edge="1" parent="1" source="ENTITY_CLIENTE" style="endArrow=none;html=1;" target="ATTR_CLI_ID">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2" edge="1" parent="1" source="ENTITY_CLIENTE" style="endArrow=none;html=1;" target="ATTR_CLI_NOME">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L3" edge="1" parent="1" source="ENTITY_CLIENTE" style="endArrow=none;html=1;" target="ATTR_CLI_TEL">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L5" edge="1" parent="1" source="e4MulYlRS7qji5v43UXd-1" style="endArrow=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="ATTR_END_RUA">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25.465987577105125" y="315.42306289881026" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6" edge="1" parent="1" source="e4MulYlRS7qji5v43UXd-1" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ATTR_END_CIDADE">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2.660760420950737" y="319.9557031571312" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L7" edge="1" parent="1" source="e4MulYlRS7qji5v43UXd-1" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="ATTR_END_BAIRRO">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16.931678607641743" y="318.119866580108" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REL_POSSUI" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="possui" vertex="1">
+          <mxGeometry height="60" width="80" x="220" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ENTITY_ANIMAL" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ANIMAL" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_ANI_ID" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;u&gt;id_animal&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="310" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_ANI_NOME" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="nome" vertex="1">
+          <mxGeometry height="40" width="80" x="430" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_ANI_DATA" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="data_nasc" vertex="1">
+          <mxGeometry height="40" width="90" x="320" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_ANI_IDADE" parent="1" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" value="idade" vertex="1">
+          <mxGeometry height="40" width="80" x="430" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="L8" edge="1" parent="1" source="ENTITY_ANIMAL" style="endArrow=none;html=1;" target="ATTR_ANI_ID">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L9" edge="1" parent="1" source="ENTITY_ANIMAL" style="endArrow=none;html=1;" target="ATTR_ANI_NOME">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L10" edge="1" parent="1" source="ENTITY_ANIMAL" style="endArrow=none;html=1;" target="ATTR_ANI_DATA">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L11" edge="1" parent="1" source="ENTITY_ANIMAL" style="endArrow=none;html=1;" target="ATTR_ANI_IDADE">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_CLI_REL" edge="1" parent="1" source="ENTITY_CLIENTE" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="REL_POSSUI" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_REL_ANI" edge="1" parent="1" source="REL_POSSUI" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ENTITY_ANIMAL" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REL_TEM" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="tem" vertex="1">
+          <mxGeometry height="60" width="80" x="380" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ENTITY_PRONTUARIO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PRONTUÁRIO" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_PRO_ID" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;u&gt;id_prontuario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="230" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_PRO_HIST" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="hist_alergias" vertex="1">
+          <mxGeometry height="40" width="90" x="320" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_PRO_OBS" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="observacoes" vertex="1">
+          <mxGeometry height="40" width="90" x="430" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="L12" edge="1" parent="1" source="ENTITY_PRONTUARIO" style="endArrow=none;html=1;" target="ATTR_PRO_ID">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L13" edge="1" parent="1" source="ENTITY_PRONTUARIO" style="endArrow=none;html=1;" target="ATTR_PRO_HIST">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L14" edge="1" parent="1" source="ENTITY_PRONTUARIO" style="endArrow=none;html=1;" target="ATTR_PRO_OBS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ANI_REL2" edge="1" parent="1" source="ENTITY_ANIMAL" style="endArrow=none;html=1;" target="REL_TEM" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_REL2_PRO" edge="1" parent="1" source="REL_TEM" style="endArrow=none;html=1;" target="ENTITY_PRONTUARIO" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REL_PARTICIPA" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="participa" vertex="1">
+          <mxGeometry height="60" width="80" x="540" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ENTITY_CONSULTA" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CONSULTA" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_CON_ID" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;u&gt;id_consulta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="630" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_CON_DATA" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="data_hora" vertex="1">
+          <mxGeometry height="40" width="90" x="750" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_CON_VET" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="nm_veterinario" vertex="1">
+          <mxGeometry height="40" width="100" x="640" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_CON_DIAG" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="diagnostico" vertex="1">
+          <mxGeometry height="40" width="90" x="760" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="L15" edge="1" parent="1" source="ENTITY_CONSULTA" style="endArrow=none;html=1;" target="ATTR_CON_ID">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L16" edge="1" parent="1" source="ENTITY_CONSULTA" style="endArrow=none;html=1;" target="ATTR_CON_DATA">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L17" edge="1" parent="1" source="ENTITY_CONSULTA" style="endArrow=none;html=1;" target="ATTR_CON_VET">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L18" edge="1" parent="1" source="ENTITY_CONSULTA" style="endArrow=none;html=1;" target="ATTR_CON_DIAG">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_ANI_REL3" edge="1" parent="1" source="ENTITY_ANIMAL" style="endArrow=none;html=1;" target="REL_PARTICIPA" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_REL3_CON" edge="1" parent="1" source="REL_PARTICIPA" style="endArrow=none;html=1;" target="ENTITY_CONSULTA" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REL_PRESCREVE" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="prescreve" vertex="1">
+          <mxGeometry height="60" width="80" x="860" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ENTITY_MEDICAMENTO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MEDICAMENTO" vertex="1">
+          <mxGeometry height="60" width="120" x="1000" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_MED_ID" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;u&gt;id_med&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="1010" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_MED_NOME" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="nm_comercial" vertex="1">
+          <mxGeometry height="40" width="100" x="970" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR_MED_LAB" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="laboratorio" vertex="1">
+          <mxGeometry height="40" width="90" x="1090" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="L19" edge="1" parent="1" source="ENTITY_MEDICAMENTO" style="endArrow=none;html=1;" target="ATTR_MED_ID">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L20" edge="1" parent="1" source="ENTITY_MEDICAMENTO" style="endArrow=none;html=1;" target="ATTR_MED_NOME">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L21" edge="1" parent="1" source="ENTITY_MEDICAMENTO" style="endArrow=none;html=1;" target="ATTR_MED_LAB">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_CON_REL4" edge="1" parent="1" source="ENTITY_CONSULTA" style="endArrow=none;html=1;" target="REL_PRESCREVE" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_REL4_MED" edge="1" parent="1" source="REL_PRESCREVE" style="endArrow=none;html=1;" target="ENTITY_MEDICAMENTO" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4MulYlRS7qji5v43UXd-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shape=doubleEllipse;" value="&lt;font dir=&quot;auto&quot; style=&quot;vertical-align: inherit;&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;vertical-align: inherit;&quot;&gt;endereço&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="-80" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="e4MulYlRS7qji5v43UXd-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font dir=&quot;auto&quot; style=&quot;vertical-align: inherit;&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;vertical-align: inherit;&quot;&gt;fixo&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="e4MulYlRS7qji5v43UXd-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font dir=&quot;auto&quot; style=&quot;vertical-align: inherit;&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;vertical-align: inherit;&quot;&gt;celular&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="e4MulYlRS7qji5v43UXd-5" edge="1" parent="1" source="ATTR_CLI_TEL" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="e4MulYlRS7qji5v43UXd-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="340" as="sourcePoint" />
+            <mxPoint x="190.06832139235826" y="382.880133419892" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4MulYlRS7qji5v43UXd-10" edge="1" parent="1" source="ATTR_CLI_TEL" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="e4MulYlRS7qji5v43UXd-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="360" as="sourcePoint" />
+            <mxPoint x="220" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4MulYlRS7qji5v43UXd-11" edge="1" parent="1" source="ENTITY_CLIENTE" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="e4MulYlRS7qji5v43UXd-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="53.75047225123626" y="250" as="sourcePoint" />
+            <mxPoint x="20" y="273.7253305758654" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
